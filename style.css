@@ -1,0 +1,77 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: aqua;
+}
+h2{
+    font-size: 30px;
+}
+.clase_destacada{
+    color: blue;
+}
+
+#destacado{
+    color: red;
+}
+
+img{
+    width: 100%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+.carousel-item {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: 450ms all;
+  transition: 450ms all;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    text-align: center; /* step 6 */
+}
+nav li {
+  display: inline-block; /* step 1 */
+  width: 20%; /* step 4 */
+  margin-right: -4px; /* step 5 */
+}
+nav a {
+  display: block; /* step 2 */
+  text-decoration: none; /* step 3 */
+}
+/* common text style */
+nav a {
+  font-family: sans-serif;
+  height: 40%; /* vertically center */
+  line-height: 40%; /* vertically center */
+  color: #fff;
+}
+nav a:hover {
+  background-color: #005f5f;
+}
+ 
+nav a.active {
+  background-color: #eee;
+  color: #444;
+  cursor: default;
+}
